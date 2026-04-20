@@ -232,7 +232,7 @@ git clone https://github.com/anandteja2030/FRONT-END-BASICS.git
 ## 👨‍💻 Author
 
 **Anand Teja Dasari**
-Front-End Developer (Learning & Building)
+  Aspiring Java Full Stack Developer (Learning & Building)
 
 ---
 
