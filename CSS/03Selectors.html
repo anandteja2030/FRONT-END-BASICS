@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style> 
+
+         /* Element Selector  */
+
+        h1 {
+            color: black;
+            font-style: oblique;
+        }
+        h2 {
+
+            color: red;
+            font-style: oblique;
+        }
+        p {
+           color : green ;
+            font-style: italic;
+            font-size: x-large;
+        }
+        body {
+            background-color: bisque;
+         }
+
+         /* Class Selector */
+
+        .sub{
+            color: black;
+            background-color: aqua;
+            font-size: larger;
+            font-style: italic;
+        }
+
+        .res{
+            color: black;
+            background-color: bisque;
+            font-size: larger;
+            font-style: normal;
+        }
+
+        /* OR
+        button{
+            color: black;
+            background-color: bisque;
+            font-size: larger;
+            font-style: normal;
+        }
+        it applied to all the buttons */
+
+
+        /* ID Selector  */
+
+        #submit1{
+            color: black;
+            background-color:blueviolet ;
+        }
+
+        #reset2{
+            color: black;
+            background-color: blueviolet;
+        }
+
+
+        /* Star Selector */
+
+        *{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        
+        /* above (Start * Selector) css apllied to the full web */
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <!-- Element Selector -->
+
+    <h1>Heading 1</h1>
+    <h1>Heading 2</h1>
+    <h1>Heading 3</h1>
+
+    <br>
+
+    <h2>Sub Heading</h2>
+    <h2>Sub Heading</h2>
+ 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iure corporis 
+        odio consequuntur ipsum! Doloribus maiores voluptates, 
+        rem aliquid voluptatibus ab! Similique sunt debitis deleniti saepe facere. Est, eveniet ab.</p>
+     
+    <!-- Class Selector -->
+
+    <br>
+    <button type="submit" class="sub">Submit</button>
+    <button type="submit" class="sub">Submit</button>
+    <button type="submit" class="sub">Submit</button>
+    <br><br>
+    <button type="reset" class="res">Reset</button>
+    <button type="reset" class="res">Reset</button>
+    <button type="reset" class="res">Reset</button>
+
+    <!-- ID Selector -->
+
+    <br><br>
+    <button type="submit" id="submit1"> Submit </button> <!--every id must be a unique -->
+    <button type="submit" id="submit2"> Submit </button>
+    <br><br>
+    <button type="reset" id="reset1"> Reset </button>
+    <button type="reset" id="reset2"> Reset </button>
+     
+
+</body>
+</html>

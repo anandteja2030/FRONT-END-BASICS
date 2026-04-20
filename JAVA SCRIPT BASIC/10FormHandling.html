@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+
+        <label for="male">Male</label>
+        <input type="checkbox" id="male" value="male"><br><br>
+        <button type="submit" id="sub">Submit</button>
+
+    </form>
+
+
+    <script>
+        //when you click on the submit button is shows the submitted Value
+        const maleinput=document.getElementById("male");
+
+        const button=document.getElementById("sub");
+
+        button.addEventListener("click" , function(){
+            alert("Submitted Value : "+maleinput.value);
+        });
+
+        
+
+    </script>
+
+
+</body>
+</html>

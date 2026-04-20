@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome To My Web</h1>
+
+    <script>
+
+        //Creating ParaGraph Element
+
+        const ele=document.createElement("p");
+        //Added Inside the Html Body
+        document.body.appendChild(ele);
+        //Adding Content To Th Paragraph
+        ele.textContent="This is created paragraph Element";
+        //Changing color to the text
+        ele.style.color="green";
+        
+        //Deleting h1 Element
+
+        const ele1=document.querySelector("h1");
+        ele1.remove();
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* transition added to p element */
+        p{
+            transition: all 2s ease;
+        }
+
+        /* text chnages when cursor places in that */
+        .mcss{
+            color: aqua;
+            font-size: 2rem;
+            transform: rotate(20deg);
+        }
+        /* redirect to the default properties when mouse out */
+        .trans{
+            color: black;;
+            font-size: 1rem;
+            transform: rotate(0deg);
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Welcome to my web </h1>
+    <p>Anand Teja Dasari</p>
+
+       <script>
+
+        const ele=document.querySelector("p");
+        ele.addEventListener("mouseover" , function(){
+            ele.classList.remove("trans");  //removes class from paragraph tag
+            ele.classList.add("mcss");      //add class to the  paragraph tag
+        });
+
+        ele.addEventListener("mouseout" , function(){
+            ele.classList.remove("mcss");  
+            ele.classList.add("trans");
+        });
+
+       </script>
+    
+</body>
+</html>

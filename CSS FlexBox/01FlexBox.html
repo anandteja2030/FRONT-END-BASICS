@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Flex Items */
+        .div {
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
+            align-items: center;
+        }
+
+        /* Flex Container 1 */
+        main {
+            background-color: lightgrey;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        /* Felx Container 2 */
+        .subdiv {
+            display: flex;
+            margin-top: 70px;
+            background-color: lightgrey;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+
+        <div class="div">
+            <h1> 1 </h1>
+        </div>
+
+        <div class="div">
+            <h1> 2 </h1>
+        </div>
+
+        <div class="div">
+            <h1> 3 </h1>
+        </div>
+
+        <div class="div">
+            <h1> 4 </h1>
+        </div>
+
+        <div class="div">
+            <h1> 5 </h1>
+        </div>
+
+        <div class="div">
+            <h1> 6 </h1>
+        </div>
+
+        <div class="div">
+            <h1> 7 </h1>
+        </div>
+
+    </main>
+
+    <div class="subdiv">
+
+        <div class="div">
+            <h1>3</h1>
+        </div>
+
+        <div class="div">
+            <h1> 7</h1>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

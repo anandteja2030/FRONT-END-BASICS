@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="getById">Welcome</h1>
+
+    <h1 class="getByClassName">To My Web</h1>
+
+    <div>
+        <h1>Div Container </h1>
+    </div>
+
+    <p id="color">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Odit odio libero facilis explicabo officia culpa? Eligendi
+        consequatur perferendis corporis unde, ratione ipsa? Quisquam
+        ipsa ab reiciendis nemo praesentium cumque neque!</p>
+
+    <img src="" alt="Not Found">
+
+    <script>
+        //Selecting And modifying The Elemenst Using DOM
+
+        //Modifying Element Text Using Id
+        ele1=document.getElementById("getById");
+        ele1.textContent="WWeellcoommee"
+
+        //Modifying Element Text Using querySelector
+        ele2=document.querySelector("div"); //same for ByClassName 
+        ele2.textContent="DDiivv CON.....";
+
+        //Modifying Attribute Using TagName
+        ele3=document.querySelector("img");
+        ele3.setAttribute("alt" , "Image Is Not Found");
+
+        //Modifying Element Text Color Using Id
+        ele4=document.getElementById("color");
+        ele4.style.color="green";
+        
+
+    </script>
+
+</body>
+
+</html>
