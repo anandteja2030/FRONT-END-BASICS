@@ -13,7 +13,7 @@ This repository is built as a **complete learning path**, starting from basic bu
 This project is a collection of hands-on practice files that demonstrate fundamental concepts required to become a front-end developer.
 
 Each folder is categorized by topic, making it easy to:
-
+ 
 * Learn step-by-step
 * Revise concepts quickly
 * Practice real examples
