@@ -238,7 +238,7 @@ git clone https://github.com/anandteja2030/FRONT-END-BASICS.git
 
 ## ⭐ Final Note
 
-This repository represents a **complete journey from beginner to intermediate level in front-end development**.
+This repository represents a **complete journey from beginner to intermediate level in front-end development**. 
 
 If you find it useful, consider ⭐ starring the repo!
 
